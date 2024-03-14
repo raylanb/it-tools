@@ -1,6 +1,8 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as ObsidianShortcodeToHugo } from './Obsidian-Shortcode-to-Hugo';
+import { tool as githubToJsdelivr } from './github-to-jsdelivr';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 
@@ -90,6 +92,8 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Converter',
     components: [
+      githubToJsdelivr,
+      ObsidianShortcodeToHugo,
       dateTimeConverter,
       baseConverter,
       romanNumeralConverter,

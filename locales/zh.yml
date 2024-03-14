@@ -387,3 +387,11 @@ tools:
   text-to-binary:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+
+  github-to-jsdelivr:
+    title: Github 到 jsdelivr CDN
+    description: 将GitHub链接转换为jsdelivr URL，包括CDN和Fastly版本。
+  
+  Obsidian-Shortcode-to-Hugo:
+    title: Obsidian 标注 到 Hugo
+    description: 将 Obsidian 标注 转换为 Hugo 的 ShortCodes

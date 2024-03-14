@@ -391,3 +391,11 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice versa.
+
+  github-to-jsdelivr:
+    title: Github to jsdelivr CDN
+    description: Convert the GitHub link to a jsdelivr URL, including CDN and Fastly versions.
+  
+  Obsidian-Shortcode-to-Hugo:
+    title: Convert Obsidian to Hugo
+    description: Convert Obsidian tags to Hugo Shortcodes
