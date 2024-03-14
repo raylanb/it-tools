@@ -1,11 +1,9 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
-import { tool as ObsidianShortcodeToHugo } from './Obsidian-Shortcode-to-Hugo';
 import { tool as githubToJsdelivr } from './github-to-jsdelivr';
-
+import { tool as ObsidianShortcodesToHugo } from './Obsidian-Shortcodes-to-Hugo';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
-
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
 import { tool as pdfSignatureChecker } from './pdf-signature-checker';
@@ -93,7 +91,7 @@ export const toolsByCategory: ToolCategory[] = [
     name: 'Converter',
     components: [
       githubToJsdelivr,
-      ObsidianShortcodeToHugo,
+      ObsidianShortcodesToHugo,
       dateTimeConverter,
       baseConverter,
       romanNumeralConverter,

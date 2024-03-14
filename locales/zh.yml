@@ -392,6 +392,6 @@ tools:
     title: Github 到 jsdelivr CDN
     description: 将GitHub链接转换为jsdelivr URL，包括CDN和Fastly版本。
   
-  Obsidian-Shortcode-to-Hugo:
+  Obsidian-Shortcodes-to-Hugo:
     title: Obsidian 标注 到 Hugo
     description: 将 Obsidian 标注 转换为 Hugo 的 ShortCodes

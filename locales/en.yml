@@ -396,6 +396,6 @@ tools:
     title: Github to jsdelivr CDN
     description: Convert the GitHub link to a jsdelivr URL, including CDN and Fastly versions.
   
-  Obsidian-Shortcode-to-Hugo:
+  Obsidian-Shortcodes-to-Hugo:
     title: Convert Obsidian to Hugo
     description: Convert Obsidian tags to Hugo Shortcodes
